@@ -42,20 +42,5 @@
 int   function1(char *buf);
 char *function2(void);
 
-int ping1(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6);
-int ping2(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6);
-int ping3(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6);
-int ping4(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6);
-int ping5(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6);
-int ping6(int arg1, int arg2, int arg3, int arg4, int arg5, int arg6);
-void reset_runs(void);
-
-void write_to_buf(size_t buf_index, size_t i, char byte);
-char read_from_buf(size_t buf_index, size_t i);
-
-unsigned int fib1(unsigned int n);
-
-void lib_test_start();
-int is_main_thread_exited();
-
+char perform_sensitive_operation(void);
 #endif /* LIBFLEXOSEXAMPLE_H */
